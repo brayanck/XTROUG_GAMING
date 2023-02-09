@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavBar from "./componentes/navBar/NavBar";
+import ItemDetailContainer from "./componentes/itemDetailContainer/ItemDetailContainer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { CartContextProvider } from "./storage/cartContex";
+import CartContainer from "./componentes/cartContainer/CartContainer";
+import Logeo from "./componentes/login/Login";
+import { UserContexProvider } from "./storage/userContex";
+import Checkout from "./componentes/checkout/Checkout";
+import Compras from "./componentes/compras/Compras";
+import Favoritos from "./componentes/favoritos/Favoritos";
+import { FavoriteContextProvider } from "./storage/favoriteContex";
+import Home from "./pages/Home";
+import NotFoundPage from "./pages/NotFoundPage"
+//import {exportDatawithBatch} from "./service/cartFirebase"
+
+
 
 function App() {
+  function handleLogin(username) {
+    alert(`${username} iniciaste cesion`);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <UserContexProvider>
+        <CartContextProvider>
+          <FavoriteContextProvider>
+            <BrowserRouter>
+              <NavBar onLogin={handleLogin} />
+              <Routes>
+                <Route path="/" element={<Home/>}></Route>
+                <Route
+                  path="/item/:itemid"
+                  element={<ItemDetailContainer />}
+                ></Route>
+                <Route
+                  path="/category/:idCategory"
+                  element={<Home/>}
+                ></Route>
+                <Route path="/Cart" element={<CartContainer />}></Route>
+                <Route path="/login" element={<Logeo />}></Route>
+                <Route path="/Cart/checkout" element={<Checkout />}></Route>
+                <Route path="/mis_compras" element={<Compras />}></Route>
+                <Route path="/favoritos" element={<Favoritos />}></Route>
+                <Route path="*" element={<NotFoundPage />} />
+              </Routes>
+            </BrowserRouter>
+            {/*<button onClick={()=>exportDatawithBatch()}>rwrwrw</button>*/}
+          </FavoriteContextProvider>
+        </CartContextProvider>
+      </UserContexProvider>
+    </>
   );
 }
 

@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# XTROUG GAMING E-commerce con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Nhtli5aSkLo8igB8oRJM49A8XBx8f15gENCCcuvf80kuqyUOrZ8giQgy4GZ7Ix_sb6c&usqp=CAU)](https://nodesource.com/products/nsolid)
+##DESCRIPCION
+Este proyecto es un e-commerce de productos gaming desarrollado utilizando React, una biblioteca de JavaScript para crear aplicaciones web interactivas y dinámicas. Este README proporcionará una guía detallada sobre cómo instalar y utilizar la aplicación.
 
-## Available Scripts
+App creada para curso de ReactJs de CoderHouse
 
-In the project directory, you can run:
+- Ecommerce desarrollado con React
+- Estilos con materila UI
+- firebase para la base de datos
+- ✨Magic ✨
 
-### `npm start`
+##Librerias usada
+- Sweet Alert 2 para los alerts
+- Font Awesonme para los iconos
+## Installation             
+1. Clona el repositorio en tu sistema local:
+```bash
+git clone https://github.com/brayanck/XTROUG_GAMING.git
+```
+2. Accede a la carpeta del proyecto:
+```bash
+cd XTROUG_GAMING
+```
+3. Instala las dependencias necesarias:
+```bash
+npm install
+```
+4. Inicia el servidor de desarrollo:
+```bash
+npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+La aplicación debería iniciarse en http://localhost:3000/ en tu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##Uso
+1. Navega por los diferentes productos disponibles en la tienda.
+2. Agrega productos al carrito de compras haciendo clic en el botón "Agregar al carrito".
+3. Accede a tu carrito de compras haciendo clic en el icono del carrito.
+4. Verifica tus pedidos en la sección "Mis pedidos".
+5. Añadir a favoritos los productos que mas te gusten
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Final 
+se hicieron todos los desafios y todos los requisitos extras que se solicitaron

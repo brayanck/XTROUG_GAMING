@@ -1,0 +1,351 @@
+{
+  "status": "success",
+  "items": [
+    {
+      "id": 9,
+      "title": "Notebook Lenovo 14 AMD Pro A4-4350B 4GB 500GB DOS",
+      "price": 54499,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_847991-MLA44008251185_112020-O.jpg",
+      "category": "notebooks",
+      "stock": 40,
+      "discount": 20,
+      "detail":"Laptop Lenovo E41-25/AMD PRO A4-4350B/2.5 GHz up to 2.9GHz/7ma. Generación/4GB/500GB/HDMI/Bluetooth/14.0″HD /FreeDOS/ Teclado Ingles/Black"
+    },
+    {
+      "id": 10,
+      "title": "Notebook HP 14 Ryzen 3 3250U 4GB 1TB Win10 US",
+      "price": 71599,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_683255-MLA45683745820_042021-O.jpg",
+      "category": "notebooks",
+      "stock": 100,
+      "detail":"La Notebook HP 14 es un portátil con un procesador AMD Ryzen 3 3250U, 4 GB de RAM y un almacenamiento de 1 TB HDD. Viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 11,
+      "title": "Notebook HP 240 14 Core i3-1005G1 4GB 1TB FreeDos US",
+      "price": 76800,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_836601-MLA48462443412_122021-O.webp",
+      "category": "notebooks",
+      "stock": 17,
+      "discount": 30,
+      "detail":"La Notebook HP 240 14 es un portátil con un procesador Intel Core i3-1005G1 de décima generación, 4 GB de RAM y un almacenamiento de 1 TB HDD."
+    },
+    {
+      "id": 12,
+      "title": "Notebook HDC HY 15.6 FHD Core i3 1005G 8GB SSD 256GB Win 10",
+      "price": 78000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWa_qviSIv6pMeXlM6Y3cvpLnwHvGO56WecHfswrQF9bX9KDxMm-6k3QsxWCMPd3RuaTw&usqp=CAU",
+      "category": "notebooks",
+      "stock": 11,
+      "detail":"La Notebook HDC HY 15.6 es un portátil con un procesador Intel Core i3-1005G1 de décima generación, 8 GB de RAM y un almacenamiento SSD de 256 GB. Tiene una pantalla Full HD de 15.6 pulgadas y viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 13,
+      "title": "Notebook ASUS Vivobook F512J 15.6 i3 1005G1 4GB 128GB WIN10",
+      "price": 78200,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_952693-MLA47360556668_092021-O.jpg",
+      "category": "notebooks",
+      "stock": 10,
+      "detail":"La Notebook ASUS Vivobook F512J es un portátil con un procesador Intel Core i3-1005G1 de décima generación, 4 GB de RAM y un almacenamiento SSD de 128 GB. Tiene una pantalla de 15.6 pulgadas y viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 14,
+      "title": "Notebook ASUS ZenBook UX433FLC 14 i5 10210U 8GB SSD 512GB Optane 32GB WIN10",
+      "price": 141499,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_713505-MLA45014603518_022021-O.jpg",
+      "category": "notebooks",
+      "stock": 18,
+      "detail":"La Notebook ASUS ZenBook UX433FLC es un portátil con un procesador Intel Core i5-10210U de décima generación, 8 GB de RAM, un almacenamiento SSD de 512 GB con un cache Optane de 32 GB. Tiene una pantalla de 14 pulgadas y viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 15,
+      "title": "Notebook ASUS ZenBook UX425EA 14 Core i5 1135G7 8GB SSD 512GB WIN10",
+      "price": 143699,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_2X_615317-MLA52853503201_122022-V.webp",
+      "category": "notebooks",
+      "stock": 29,
+      "detail":"La Notebook ASUS ZenBook UX425EA es un portátil con un procesador Intel Core i5-1135G7 de undécima generación, 8 GB de RAM y un almacenamiento SSD de 512 GB. Tiene una pantalla de 14 pulgadas y viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 16,
+      "title": "Notebook Gamer ASUS TUF FX506 15.6 Core i5 10300H GTX 1650Ti 4GB 512GB Win10 144Hz",
+      "price": 149800,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_814690-MLA48665574268_122021-O.jpg",
+      "category": "notebooks",
+      "stock": 2,
+      "detail":"La Notebook ASUS TUF FX506 es un portátil para juegos con un procesador Intel Core i5-10300H de décima generación, una tarjeta gráfica NVIDIA GTX 1650Ti, 4 GB de RAM y un almacenamiento SSD de 512 GB. Tiene una pantalla de 15.6 pulgadas con una tasa de refresco de 144Hz y viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 17,
+      "title": "Notebook Lenovo IP 3 15 Core i5-10300H 8GB M.2 128GB 1TB GTX 1650 WIN10",
+      "price": 154000,
+      "image": "https://app.contabilium.com/files/explorer/16277/Productos-Servicios/concepto-5939402.jpg",
+      "category": "notebooks",
+      "stock": 9,
+      "detail":"La Notebook Lenovo IdeaPad 3 15 es un portátil con un procesador Intel Core i5-10300H de décima generación, 8 GB de RAM, un almacenamiento combinado de 128 GB SSD M.2 y 1 TB HDD, y una tarjeta gráfica NVIDIA GTX 1650. Viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 18,
+      "title": "Notebook ASUS ZenBook UX433 14 i5 10210U 8GB SSD 512GB FREE DOS",
+      "price": 163900,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_971836-MLA43954919874_102020-O.jpg",
+      "category": "notebooks",
+      "stock": 40,
+      "detail":"La Notebook ASUS ZenBook UX433 es un portátil con un procesador Intel Core i5-10210U de décima generación, 8 GB de RAM y un almacenamiento SSD de 512 GB. Tiene una pantalla de 14 pulgadas."
+    },
+    {
+      "id": 19,
+      "title": "Notebook ASUS ROG STRIX G512LV 15.6 144Hz i5-10300H 8GB 512Gb NVMe 1650Ti FreeDOS",
+      "price": 166499,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_781491-MLA44284139855_122020-O.jpg",
+      "category": "notebooks",
+      "stock": 4,
+      "detail":"La Notebook ASUS ROG STRIX G512LV es un portátil para juegos con un procesador Intel Core i5-10300H de décima generación, 8 GB de RAM, un almacenamiento NVMe de 512 GB y una tarjeta gráfica NVIDIA GTX 1650Ti. Tiene una pantalla de 15.6 pulgadas con una tasa de refresco de 144Hz"
+    },
+    {
+      "id": 20,
+      "title": "Notebook ASUS ZenBook UX425EA 14 Core i7 1165G7 16GB M.2 512GB WIN10",
+      "price": 174699,
+      "image": "https://dlcdnwebimgs.asus.com/gain/8b2f6d00-c179-416f-af9f-6e7ba536743a/w800",
+      "category": "notebooks",
+      "stock": 40,
+      "detail":"La Notebook ASUS ZenBook UX425EA es un portátil con un procesador Intel Core i7-1165G7 de undécima generación, 16 GB de RAM y un almacenamiento M.2 de 512 GB. Tiene una pantalla de 14 pulgadas y viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 21,
+      "title": "Notebook HP OMEN 15 i7 10750H 8GB 512GB Optane 32GB GF1650TI W10H",
+      "price": 193800,
+      "image": "https://front.dev.malditohard.com.ar/img/migration/NOTEBOOK-HP-OMEN-15EK0062LA-CI7-10750H-8GB-SSD-512GB-OPTANE.webp",
+      "category": "notebooks",
+      "stock": 18,
+      "detail":"La Notebook HP OMEN 15 es un portátil para juegos con un procesador Intel Core i7-10750H de décima generación, 8 GB de RAM, un almacenamiento SSD de 512 GB con un cache Optane de 32 GB y una tarjeta gráfica NVIDIA GF1650TI. Viene con el sistema operativo Windows 10 Home preinstalado."
+    },
+    {
+      "id": 22,
+      "title": "Notebook ASUS TUF FA506 15.6 144Hz Ryzen 7 4800H GTX1660Ti 6GB DDR4 16GB M.2 512GB W10",
+      "price": 208000,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_616122-MLA45138639874_032021-O.jpg",
+      "category": "notebooks",
+      "stock": 10,
+      "detail":"La Notebook ASUS TUF FA506 es un portátil para juegos con un procesador AMD Ryzen 7 4800H, una tarjeta gráfica NVIDIA GTX1660Ti con 6 GB de memoria DDR4, 16 GB de RAM y un almacenamiento M.2 de 512 GB. Tiene una pantalla de 15.6 pulgadas con una tasa de refresco de 144Hz y viene con el sistema operativo Windows 10 preinstalado."
+    },
+    {
+      "id": 23,
+      "title": "Notebook ASUS ROG ZEPHYRUS 14 WQHD RYZEN 9 4900HS 16GB 1TB NVMe RTX 2060",
+      "price": 295200,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_782170-MLA45105630493_032021-O.jpg",
+      "category": "notebooks",
+      "stock": 25,
+      "detail":"La Notebook ASUS ROG ZEPHYRUS 14 es un portátil para juegos de alta gama con un procesador AMD Ryzen 9 4900HS, 16 GB de RAM, un almacenamiento NVMe de 1 TB y una tarjeta gráfica NVIDIA RTX 2060. Tiene una pantalla WQHD de 14 pulgadas y ofrece un rendimiento potente para juegos y tareas intensivas de gráficos."
+    },
+    {
+      "id": 207,
+      "title": "PC Oficina | AMD Athlon 3000G - A320 - 8GB - 240GB SSD",
+      "price": 40499,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvIy0FLDiT5arJQvkSAmCTJI8Q7861D6I-V5SX5_LaOqYSb36IWduNYBFNRWTh-820Yo&usqp=CAU",
+      "category": "PC",
+      "stock": 40,
+      "detail":"El AMD Athlon 3000G es un procesador de 2 núcleos y 4 hilos con una velocidad base de 3,5 GHz. La placa madre A320 es compatible con el socket AM4 y ofrece características básicas para satisfacer las necesidades de una PC de oficina. Con 8 GB de RAM, puedes ejecutar varios programas al mismo tiempo sin interrupciones. El disco SSD de 240 GB proporciona una gran velocidad de inicio y carga de aplicaciones en comparación con un disco duro convencional."
+    },
+    {
+      "id": 208,
+      "title": "PC Diseño | Intel I3 10100F- B460M - 8GB - GT 1030 - 240GB SSD - 1TB",
+      "price": 74699,
+      "image": "https://www.digitarinformatica.com.ar/wp-content/uploads/2021/08/Pc-Gamer-Intel-Core-I3-10100F-RAM-8GB-SSD-250GB-GT-1030.jpg",
+      "category": "PC",
+      "stock": 10,
+      "detail": "El Intel Core i3-10100F es un procesador de 4 núcleos y 4 hilos con una velocidad base de 3,6 GHz y una velocidad turbo de 4,3 GHz. La placa madre B460M es compatible con el socket LGA 1200 y ofrece características avanzadas para mejorar el rendimiento y la capacidad de expansión. Con 8 GB de RAM, puedes ejecutar varios programas al mismo tiempo sin interrupciones, y la tarjeta gráfica NVIDIA GeForce GT 1030 proporciona un rendimiento gráfico decente para juegos casuales y aplicaciones de gráficos. Con un disco SSD de 240 GB, el sistema se iniciará y cargará aplicaciones mucho más rápido que con un disco duro convencional, y el disco duro de 1 TB proporciona un gran almacenamiento adicional para tus archivos y datos."
+    },
+    {
+      "id": 209,
+      "title": "PC Principiante | AMD Ryzen 3 2200G - A320 - 8GB - 240GB SSD",
+      "price": 52800,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_666319-MLA45434590788_042021-O.webp",
+      "category": "PC",
+      "stock": 6,
+      "detail":"El AMD Ryzen 3 2200G es un procesador de 4 núcleos y 4 hilos con una velocidad base de 3,5 GHz. La placa madre A320 es compatible con el socket AM4 y ofrece características básicas para satisfacer las necesidades de una PC para principiantes. Con 8 GB de RAM, puedes ejecutar varios programas al mismo tiempo sin interrupciones. El disco SSD de 240 GB proporciona una gran velocidad de inicio y carga de aplicaciones en comparación con un disco duro convencional."
+    },
+    {
+      "id": 210,
+      "title": "PC Streaming AMD Ryzen 5 3600XT - B450 - 16GB - RTX 2060 - 240GB SSD - 1TB",
+      "price": 141000,
+      "image": "https://bangho.vtexassets.com/arquivos/ids/160889-1200-auto?v=637795820476770000&width=1200&height=auto&aspect=true",
+      "category": "PC",
+      "stock": 30,
+      "detail":"El AMD Ryzen 5 3600XT es un procesador de 6 núcleos y 12 hilos con una velocidad base de 3,8 GHz y una velocidad turbo de 4,5 GHz. La placa madre B450 es compatible con el socket AM4 y ofrece características avanzadas para mejorar el rendimiento y la capacidad de expansión. Con 16 GB de RAM, puedes ejecutar varios programas al mismo tiempo sin interrupciones, y la tarjeta gráfica NVIDIA GeForce RTX 2060 proporciona un rendimiento gráfico impresionante para juegos y aplicaciones de gráficos exigentes. Con un disco SSD de 240 GB, el sistema se iniciará y cargará aplicaciones mucho más rápido que con un disco duro convencional, y el disco duro de 1 TB proporciona un gran almacenamiento adicional para tus archivos y datos."
+
+    },
+    {
+      "id": 155,
+      "title": "Mouse Havit Gamenote MS1022 RGB 3200 Dpi",
+      "price": 1452,
+      "image": "https://havitgamenote.com/wp-content/uploads/2020/11/MS1022-1.jpg",
+      "category": "Mause",
+      "stock": 35,
+      "detail":"El Mouse Havit Gamenote MS1022 es un mouse de juego con una tasa de seguimiento de 3200 Dpi y retroalimentación RGB. Ofrece un control preciso y personalización a través de sus diferentes niveles de Dpi y sus efectos de iluminación RGB. Es una opción popular para jugadores que buscan un mouse de alta calidad con funciones avanzadas."
+    },
+    {
+      "id": 156,
+      "title": "Mouse Redragon Centrophorus M601 RGB",
+      "price": 1518,
+      "image": "https://redragon.es/content/uploads/2021/04/CETROPHORUS-RGB.png",
+      "category": "Mause",
+      "stock": 20,
+      "detail":"El Mouse Redragon Centrophorus M601 RGB es un mouse para juegos con retroalimentación RGB y una tasa de seguimiento ajustable de 3000 a 6000 Dpi. Ofrece un control preciso y una personalización adicional a través de sus efectos de iluminación RGB y sus opciones de Dpi. Con un diseño ergonómico y un botón adicional, es una opción popular para jugadores que buscan un mouse de buena calidad y funciones avanzadas."
+    },
+    {
+      "id": 157,
+      "title": "Mouse Redragon M607 Griffin",
+      "price": 1635,
+      "image": "https://s3-sa-east-1.amazonaws.com/saasargentina/js5YAR90pHrt0Vvo5kCB/imagen",
+      "category": "Mause",
+      "stock": 16,
+      "detail":"El Mouse Redragon M607 Griffin es un mouse para juegos con una tasa de seguimiento ajustable de 1200 a 2400 Dpi. Ofrece un control preciso y una personalización adicional a través de sus opciones de Dpi. Con un diseño ergonómico y un botón adicional, es una opción popular y asequible para jugadores que buscan un mouse de buena calidad para sus juegos."
+    },
+    {
+      "id": 158,
+      "title": "Mouse Redragon M710 Memeanlion Chroma",
+      "price": 1908,
+      "image": "https://www.laeditorial.com.ar/24887-large_default/mouse-redragon-gamer-m710-memeanlion-chroma-pgb.jpg",
+      "category": "Mause",
+      "stock": 11,
+      "detail":"El Mouse Redragon M710 Memeanlion Chroma es un mouse para juegos con retroalimentación RGB y una tasa de seguimiento ajustable de 1000 a 16000 Dpi. Ofrece un control preciso y una personalización adicional a través de sus efectos de iluminación RGB y sus opciones de Dpi. Con un diseño ergonómico y seis botones programables, es una opción popular para jugadores que buscan un mouse de buena calidad y funciones avanzadas."
+    },
+    {
+      "id": 159,
+      "title": "Mouse Logitech G203 Lightsync Azul",
+      "price": 2464,
+      "image": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/910-005795_800.jpg",
+      "category": "Mause",
+      "stock": 3,
+      "detail":"El Mouse Logitech G203 Lightsync Azul es un mouse para juegos con retroalimentación LED y una tasa de seguimiento ajustable de 200 a 8000 Dpi. Ofrece un control preciso y una personalización adicional a través de sus efectos de iluminación LED y sus opciones de Dpi. Con un diseño ergonómico y seis botones programables, es una opción popular para jugadores que buscan un mouse de buena calidad y funciones avanzadas. Además, su retroalimentación LED es compatible con la tecnología Logitech Lightsync, lo que permite sincronizar la iluminación con tus juegos y contenido multimedia."
+    },
+    {
+      "id": 160,
+      "title": "Mouse Redragon M908 IMPACT RGB MOBA Y MMORPG",
+      "price": 2836,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8vlN4bZFaniyOFIaavbPTUhDjL6WR_BCgr0YnAAQR33dcZY7UzgvXBzrljeMHwWiaT4&usqp=CAU",
+      "category": "Mause",
+      "stock": 9,
+      "detail":"El Mouse Redragon M908 IMPACT RGB es un mouse diseñado específicamente para juegos MOBA y MMORPG. Con una tasa de seguimiento ajustable de 1000 a 12000 Dpi y una velocidad de rastreo de hasta 220 IPS, ofrece un control preciso y un rendimiento rápido en los juegos. Además, cuenta con nueve botones programables y retroalimentación RGB, lo que permite una mayor personalización y efectos de iluminación atractivos. Con un diseño ergonómico y una construcción duradera, el Mouse Redragon M908 IMPACT RGB es una excelente opción para jugadores MOBA y MMORPG que buscan un mouse de alta calidad y funciones avanzadas."
+    },
+    {
+      "id": 161,
+      "title": "Mouse Redragon M988 Storm Elite",
+      "price": 3314,
+      "image": "https://redragon.es/content/uploads/2021/04/STORM-ELITE.png",
+      "category": "Mause",
+      "stock": 30,
+      "detail":"El Mouse Redragon M988 Storm Elite es un mouse gaming diseñado para proporcionar un rendimiento de alta calidad en juegos. Con una tasa de seguimiento ajustable de 1000 a 16000 Dpi y una velocidad de rastreo de hasta 220 IPS, brinda un control preciso y una respuesta rápida en los juegos. Además, cuenta con nueve botones programables y retroalimentación RGB, lo que permite una mayor personalización y efectos de iluminación atractivos. Con un diseño ergonómico y una construcción duradera, el Mouse Redragon M988 Storm Elite es una excelente opción para los jugadores que buscan un mouse de alta calidad con un rendimiento superior."
+    },
+    {
+      "id": 162,
+      "title": "Mouse Logitech G502 LIGHTSPEED",
+      "price": 9231,
+      "image": "http://d2r9epyceweg5n.cloudfront.net/stores/001/551/183/products/g502-l1-2c6510d130d1b99dc116474056153991-640-0.jpg",
+      "category": "Mause",
+      "stock": 30,
+      "detail":"El Mouse Logitech G502 LIGHTSPEED es un mouse de juego de alta calidad diseñado para proporcionar un rendimiento óptimo en juegos. Con una tasa de seguimiento de hasta 16000 Dpi, una velocidad de rastreo de 400 IPS y una aceleración máxima de 40G, brinda un control preciso y una respuesta rápida en los juegos. Además, cuenta con 11 botones programables, una rueda de desplazamiento con textura y un diseño ergonómico que permite una sujeción cómoda y un manejo fácil. Con una conexión inalámbrica LIGHTSPEED de baja latencia, el Mouse Logitech G502 LIGHTSPEED es una excelente opción para los jugadores que buscan un mouse de alta calidad con un rendimiento superior y una conectividad fiable."
+    },
+    {
+      "id": 163,
+      "title": "Mouse Razer Viper Ultimate Mercury Wireless Con Charging Dock",
+      "price": 15771,
+      "image": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-5846523.jpg",
+      "category": "Mause",
+      "stock": 20,
+      "detail":"El Mouse Razer Viper Ultimate es un mouse de juego inalámbrico de alta calidad con un dock de carga incorporado. Con una tasa de seguimiento de hasta 20,000 Dpi, una velocidad de rastreo de 650 IPS y una aceleración máxima de 50G, brinda un control preciso y una respuesta rápida en los juegos. Además, cuenta con 8 botones programables, un diseño ergonómico y un peso ultraligero de solo 74 gramos para un manejo fácil y cómodo. La conexión inalámbrica Razer HyperSpeed ofrece una baja latencia y una transmisión de datos confiable para un rendimiento sin interrupciones. Con el dock de carga, el mouse puede cargarse rápidamente y estar listo para jugar en cualquier momento. En resumen, el Razer Viper Ultimate es una excelente opción para los jugadores que buscan un mouse inalámbrico de alta calidad con un rendimiento superior y una conectividad fiable."
+    },
+    {
+      "id": 164,
+      "title": "Mouse Logitech G600 Gaming Black RGB",
+      "price": 5215,
+      "image": "https://computelweb.com/wp-content/uploads/2020/12/61QYugFCxPL._AC_SY450_.jpg",
+      "category": "Mause",
+      "stock": 30,
+      "detail":"The Logitech G600 Gaming Mouse is a black, RGB-lit gaming mouse. It has 20 programmable buttons, customizable RGB lighting, and a comfortable grip design. It is optimized for MMO games, with a G-Shift button to expand the number of actions you can perform with each button. The mouse is compatible with Logitech Gaming Software, which allows you to adjust performance and settings."
+    },
+
+    {
+      "id": 137,
+      "title": "Teclado Redragon K552 Kumara Mecanico RGB White Esp Switch Red",
+      "price": 5926,
+      "image": "https://www.compugarden.com.ar/Temp/App_WebSite/App_PictureFiles/Items/6950376778932_800.jpg",
+      "category": "Teclado",
+      "stock": 15,
+      "detail":"El Teclado Redragon K552 Kumara Mecánico RGB White con Interruptores Rojos es un teclado para juegos con interruptores mecánicos rojos que brindan una experiencia de escritura táctil y sensible. Tiene retroiluminación RGB blanca que se puede personalizar completamente con diferentes efectos de iluminación. El diseño compacto del teclado lo hace una excelente opción para los jugadores que buscan un teclado de juegos de alto rendimiento sin ocupar demasiado espacio en la mesa. Las teclas son removibles para una fácil limpieza y mantenimiento, y el teclado está construido para soportar sesiones intensas de juego con una construcción duradera."
+    },
+    {
+      "id": 138,
+      "title": "Teclado Mecanico Redragon Magic Wand PRO K587 RGB",
+      "price": 6611,
+      "image": "https://www.venex.com.ar/products_images/1628705792_sd5f4gds.jpg",
+      "category": "Teclado",
+      "stock": 9,
+      "detail":"El teclado mecánico Redragon Magic Wand PRO K587 es un teclado con retroalimentación táctil y respuesta rápida. Tiene teclas RGB con una amplia selección de efectos de iluminación y colores personalizables, lo que permite una experiencia de juego o trabajo única. Tiene un diseño compacto y ergonómico con una construcción duradera para una experiencia de usuario cómoda. Además, cuenta con un switch mecánico de alta calidad para una respuesta suave y precisa."
+    },
+    {
+      "id": 139,
+      "title": "Teclado Mecanico Redragon Draconic K530 White RGB Inalambrico Outemu Brown",
+      "price": 7221,
+      "image": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/6950376778109.jpg",
+      "category": "Teclado",
+      "stock": 21,
+      "detail":"El Teclado Mecánico Redragon Draconic K530 White RGB Inalámbrico es un teclado de juego con retroalimentación táctil y conmutación Outemu Brown. Tiene un diseño blanco y RGB retroalimentación con 16.8 millones de colores que se pueden personalizar. Es inalámbrico y cuenta con una conexión 2.4GHz para una transmisión confiable y rápida. Además, utiliza interruptores Outemu Brown, que ofrecen una sensación de teclas táctiles y una respuesta rápida para una experiencia de juego mejorada."
+    },
+    {
+      "id": 140,
+      "title": "Teclado Redragon K550 Yama Mecanico RGB Negro ESPAÑOL",
+      "price": 7289,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpSKrQ9P7MyC1Dv2GIyewHIvyx2r9fGTnfjD6AuaMMAmBDeFDBDkLywpTa5tvG4eQ9L_Y&usqp=CAU",
+      "category": "Teclado",
+      "stock": 37,
+      "detail":"El Teclado Redragon K550 Yama es un teclado mecánico RGB con switch Outemu en español. Tiene un diseño elegante y robusto con una estructura de aluminio y retroalimentación de teclas RGB. Cuenta con una función anti-ghosting y teclas multimedia dedicadas para una experiencia de juego y trabajo cómoda. Con su conectividad USB, es compatible con la mayoría de los dispositivos y sistemas operativos."
+    },
+    {
+      "id": 141,
+      "title": "Teclado Cougar Vantar MX",
+      "price": 7291,
+      "image": "https://cougargaming.com/_cgrwdr_/wwdpp/wp-content/uploads/2019/08/02-1.png",
+      "category": "Teclado",
+      "stock": 19,
+      "detail":"El Teclado Cougar Vantar MX es un teclado mecánico con interruptores MX. Puede ofrecer una experiencia de escritura suave y una respuesta rápida a la pulsación de teclas. Además, puede incluir características adicionales como iluminación RGB y teclas programables para una mayor personalización."
+    },
+    {
+      "id": 142,
+      "title": "Teclado Mecanico Logitech PRO RGB Lightsync Switch GX Blue TKL",
+      "price": 8943,
+      "image": "http://d3ugyf2ht6aenh.cloudfront.net/stores/349/695/products/log-gpro_21-501e073f6aca5f549015941547535680-640-0.png",
+      "category": "Teclado",
+      "stock": 30,
+      "detail":"El teclado mecánico Logitech PRO RGB Lightsync Switch GX Blue TKL es un teclado de tamaño compacto (TKL) con interruptores GX Blue mecánicos, que brindan una experiencia de escritura cómoda y precisa. Además, cuenta con retroalimentación táctil y una función de iluminación RGB personalizable que permite sincronizar el teclado con tus juegos y contenido multimedia. Este teclado es compatible con el software Logitech G HUB, que te permite personalizar los colores, efectos de iluminación y macros para una experiencia de juego y productividad aún más óptima."
+    },
+    {
+      "id": 143,
+      "title": "Teclado Trust Ziva Gaming Rainbow LED",
+      "price": 1322,
+      "image": "https://www.precio-calidad.com.ar/wp-content/uploads/2020/11/TRUST-Ziva-Gaming-Rainbow-6.jpg",
+      "category": "Teclado",
+      "stock": 3,
+      "detail":"El Teclado Trust Ziva Gaming Rainbow LED es un teclado de juego con retroiluminación LED de colores. Ofrece un diseño elegante y una experiencia de juego fluida con teclas suaves y precisas. La retroiluminación LED permite personalizar el aspecto del teclado y facilitar la visualización en ambientes poco iluminados. Además, cuenta con un diseño ergonómico para una comodidad prolongada durante el juego."
+    },
+    {
+      "id": 144,
+      "title": "Teclado Trust Thado GXT833 TKL Rainbow LED ES",
+      "price": 1657,
+      "image": "https://www.compugarden.com.ar/Temp/App_WebSite/App_PictureFiles/Items/8713439236989_800.jpg",
+      "category": "Teclado",
+      "stock": 20,
+      "detail":"El Trust Thado GXT833 TKL es un teclado de juego con un diseño TKL (teclado sin número) y un iluminación LED rainbow que puede ser personalizada. Tiene un interruptor de teclas mecánicas y una construcción duradera para soportar sesiones de juego intensas. Viene con un diseño español para una mayor comodidad de uso."
+    },
+    {
+      "id": 148,
+      "title": "Teclado Razer Ornata V2 Chroma RGB Español",
+      "price": 10733,
+      "image": "https://www.qloud.ar/SITES/ryr/fotos/14637-0.jpg",
+      "category": "Teclado",
+      "stock": 30,
+      "detail":"El Teclado Razer Ornata V2 Chroma RGB es un teclado mecánico-membrana que combina la retroalimentación táctil de los teclados mecánicos con la comodidad suave de los teclados convencionales. Posee teclas personalizables con iluminación RGB Chroma y cuenta con un diseño ergonómico para una experiencia de juego cómoda y duradera. Viene con un teclado en español para una fácil lectura de las teclas."
+    }
+  ]
+}

@@ -40,7 +40,6 @@ La aplicación debería iniciarse en http://localhost:3000/ en tu navegador.
 3. Accede a tu carrito de compras haciendo clic en el icono del carrito.
 4. Verifica tus pedidos en la sección "Mis pedidos".
 5. Añadir a favoritos los productos que mas te gusten
-![gif a entregar](https://user-images.githubusercontent.com/86504383/217944178-cd0a0b9b-cc57-43ce-81e3-20f342aa748a.gif)
 
 #Final 
 se hicieron todos los desafios y todos los requisitos extras que se solicitaron

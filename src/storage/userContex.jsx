@@ -14,12 +14,16 @@ const auth = getAuth(firebaseApp);
 export function UserContexProvider(props) {
   const [usuario, setUsuario] = useState(null);
 
-  const crearCuenta = (form) => {
-    createUserWithEmailAndPassword(auth, form.email, form.contraseña).then(
-      (usuarioFirebase) => {
-        setUsuario(usuarioFirebase);
-      }
-    );
+
+
+  const crearCuenta = async (form) => {
+    try{
+      let user = await createUserWithEmailAndPassword(auth, form.email, form.contraseña)
+
+      setUsuario(user)
+    }catch(err){
+      console.log(err);
+    }
   };
   const iniciarCuenta = (form) => {
     signInWithEmailAndPassword(auth, form.email, form.contraseña).then(
@@ -28,6 +32,7 @@ export function UserContexProvider(props) {
       }
     );
   };
+  
   const autenti = () => {
     onAuthStateChanged(auth, (usuariFirebase) => {
       if (usuariFirebase) {
@@ -56,7 +61,7 @@ export function UserContexProvider(props) {
     setUsuario(null)
   }
 
-  
+
 
   const value = { usuario, crearCuenta, iniciarCuenta, autenti,cerrarSesion};
   return (

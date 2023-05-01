@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { cartContext } from "../../storage/cartContex";
 import { Link } from "react-router-dom";
 import "./carrito.css"
-
+ 
 function Carrito() {
   const { getTotalItems } = useContext(cartContext);
 

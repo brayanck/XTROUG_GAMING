@@ -1,7 +1,7 @@
 
 import {getFirestore, doc, getDocs, collection, where, query, getDoc, addDoc,} from "firebase/firestore"
 //import data from "../assets/productos.json"
-//import {writeBatch} from "firebase/firestore"
+// import {writeBatch} from "firebase/firestore"
 import Swal from "sweetalert2";
 import firebaseApp from "./firebase"
 
@@ -39,6 +39,7 @@ export async function getItem(){
     return dataDoc
 }
 
+
 export async function getItemsByCategory(idCategory)
 {
   if(idCategory===undefined){
@@ -52,25 +53,34 @@ export async function getItemsByCategory(idCategory)
     
 }
 
+export async function existencia(clase)
+{
+  const productsCollectionRef = collection(db,"products")
+  const q = query(productsCollectionRef, where(clase, "!=", false))
+  const querySnapshot = await getDocs(q)
+  const dataDoc = querySnapshot.docs.map(doc => ({...doc.data(), id: doc.id}))
+    return dataDoc
+    
+}
+
 export async function createBuyOrder(order) {
   const collectionOrder = collection(db,"orders")
   const orderDoc = await addDoc(collectionOrder,order)
   return orderDoc.id
 
 }
-/*
-export async function exportDatawithBatch(){
-  const productCollection = collection(db, "products")
-  const batch = writeBatch(db)
 
-  for(let item of data.items){
-    delete(item.id)
-    const newDoc = doc(productCollection)
-    batch.set(newDoc,item)
-  }
-  const commit = await batch.commit()
-}
-*/
+// export async function exportDatawithBatch(){
+//   const productCollection = collection(db, "products")
+//   const batch = writeBatch(db)
+
+//   for(let item of data.items){
+//     delete(item.id)
+//     const newDoc = doc(productCollection)
+//     batch.set(newDoc,item)
+//   }
+//   const commit = await batch.commit()
+// }
 
 export async function getCompra(idCompra){
   const docRef = doc(db,"orders",idCompra)
@@ -78,7 +88,7 @@ export async function getCompra(idCompra){
   if(!snapshot.exists()){
     throw new Error( Swal.fire(
       'error',
-      `este producto no existe`,
+      `esta orden de compra no existe`,
       'error'
     )
     )

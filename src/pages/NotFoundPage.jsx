@@ -7,14 +7,16 @@ function NotFoundPage() {
   useEffect(() => {
     setTimeout(() => {
       navigateTo(-1);
-    }, 1000);
+    }, 3000);
   }, [navigateTo]);
 
   return (
-    <div className="centro" style={{marginTop:"10%",flexDirection:"column"}} >
-      <h1 className="indice">404: Page not found</h1>
-      <small>Serás redirigido a la homepage en breve.</small>
+    <div class="container_404">
+      <h1 class="titulo">Error 404 - Página no encontrada</h1>
+      <p class="text">Lo siento, la página que estás buscando no existe o ha sido eliminada.</p>
+      <small class="text">Serás redirigido a la homepage en breve.</small>
     </div>
+   
   );
 }
 

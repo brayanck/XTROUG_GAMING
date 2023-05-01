@@ -40,15 +40,12 @@ useEffect(() => {
   } else {
     titulo = idCategory;
   }
-  if(isLoading){
-    return (<Loader />)
-  }
  
   return (
     <div>
       <div className="productos">
         <h1 className="titulo_index">{titulo}</h1>
-         <ItemList products={products} />
+        {isLoading ? <Loader /> : <ItemList products={products} />}
       </div>
     </div>
   );

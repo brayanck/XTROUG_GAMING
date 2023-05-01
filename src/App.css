@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.titulo_index{
+  color: red;
+  font-size:50px;
+  text-align: center;
+  text-decoration: underline;
+}
+.logo{
+  color: red;
+}
 *,
 *::before,
 *::after{
@@ -7,12 +16,16 @@
     box-sizing: inherit;
 }
 
-
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
 body{
-  font-family:'roboto',sans-serif;
-  background-image: url("./assets/LOL.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--white);
 }
 a{
   text-decoration: none;
@@ -21,60 +34,267 @@ ul,
 li{
   list-style: none;
 }
+.container{
+  padding: 0 1.6rem;
+}
+/*carrito*/
+.icono_carro{
+  margin-top: .6rem;
+  font-size: 2rem;
+  color: red;
+}
+
+
+/*productos*/
+
+
+
 .productos{
   padding: 3rem 0;
-  margin:  50px 0 ;
+  margin:  200px 15%;
+
 }
 .productos__center{
   padding: 0 3rem;
-  justify-content: center;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 18rem));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 30rem));
   gap: 2rem 2rem;
 }
-.titulo_index{
-  font-weight:800;
-   text-align: center;
-   font-size: 30px;
-   margin-bottom: 5px;
-   color: rgb(29, 27, 26);
-}
-
-.container_404
-{
-  font-family: Arial, sans-serif;
+.producto{
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .2);
+  border: solid 4px red;
+  border-radius: 20px;
+}
+
+.productos__footer{
+  padding: 3rem;
+  width: 100%;
+
+}
+.productos__footer h3{
+  height: 25px;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: 500;
+  text-align:center;
+}
+.bottom{
+  padding: 2rem 0;
+}
+.btn{
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 1rem 1rem;
+  color: black;
+  font-weight: 500;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  border-radius: 20px;
+}
+.btn:hover{
+  background-color: red;
+  color: white;
+  border: none;
+  
+}
+.price{
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align:center
+}
+.image__container img{
+  width: 250px;
+  height:200px;
+  
+}
+.detalles{
+  flex-direction: row;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
-  background-image: url("./assets/Mosaico.jpg");
-  background-repeat: repeat;
-  background-position: right top;
-  background-attachment: fixed;
 }
-.container_404 .titulo
-{
-  font-size: 4em;
-  font-weight: bold;
-  color: #21dfdf;
-  -webkit-text-stroke: 2px black;
-  text-align: center;
-  margin-top: 50px;
+.detalles img{
+  width: 50rem;
+  height: 40rem;
 }
-.container_404 .img
-{
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  margin-top: 50px;
+.datos {
+  width: 50%;
 }
-.container_404 .text
-{
-  font-size: 1.5em;
-  color: #750505;
-  text-align: center;
+.descripcion{
+  width: 30%;
+}
+.descripcion p {
   margin-top: 30px;
+}
+.contador{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.contador h2 {
+  margin: 10px;
+}
+.datoContador{
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorBoton{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cartList{
+  border-spacing: 0;
+  border-radius: 5px;
+  border: solid 3px red;  
+  width: 95%;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+}
+
+.cartList_head{
+  background-color: red;
+  margin: 8px auto;
+}
+.cartList_row_r{
+  line-height: 56px;
+  background-color: red;
+  color: white;
+}
+
+.cartList_row{
+  line-height: 56px;
+  background-color: black;
+  color: white;
+}
+
+.cartList_detail{
+  color: #787878;
+  text-align: center;
+  line-height: 1.5em;
+  width: 100%;
+}
+.indice{
+  color: red;
+}
+.deshabilitado{
+  display: inline-block;
+  padding: 1rem 1rem;
+  color: black;
+  font-weight: 500;
+  font-size: 1.7rem;
+  cursor: pointer; 
+  border-radius: 20px;
+  background-color: #918c8c;
+}
+.item-card_favicon{
+  border-radius:  50%;
+  border: none;
+  padding: 8px 8px;
+  cursor: pointer;
+  background-color: rgb(219, 219, 219);
+  color: #8c8c8e;
+}
+.item-card_favicon.favorite{
+  background-color: rgb(223, 117, 84);
+  color: white;
+}
+
+.sinBoton{
+  border: none;
+  background-color: white;
+  margin-left: 88%;
+  margin-top: 3px;
+}
+.centro{
+  display: flex;
+  align-items: center;
+justify-content: center;
+margin-top: 10%;
+}
+.centro{
+  display: flex;
+  align-items: center;
+justify-content: center;
+margin-top: 10%;
+}
+
+
+
+.contenedor{
+  max-width: 500px;
+width: 90%;
+margin: 50px auto;
+padding: 40px;
+  border: 2px solid red;
+  background-color:black;
+  border-radius:5%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 200px;
+}
+.formulario{
+  display: grid;
+grid-template-columns: 1fr;
+gap: 20px;
+}
+.formulario label{
+  color:white;
+}
+
+.formulario__label {
+  display: block;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+.formulario__input{
+  width: 100%;
+  background-color:white;
+  border: 3px solid transparent;
+  border-radius: 3px;
+  height:45px;
+  font-size: 18px;
+  padding: 0 15px;
+  transition: .3s ease all;
+}
+.formulario__input:focus{
+  transition: .3s ease all;
+  border: 3px solid #0080ff;
+  outline: none;
+  box-shadow: 3px 0px 30px rgba(163,163,163,0.4);
+}
+.formulario__input-error{
+  font-size:9px;
+  margin-bottom:0;
+  color:rgb(207, 110, 110);
+}
+.formulario__mensaje{
+  display:none
+}
+.formulario__mensaje_activo{
+  height:45px;
+  line-height:45px;
+  background-color:rgb(243, 40, 40);
+  border-radius: 3px;
+  display:block;
+  
+}
+.boton2{
+  color: white;
+  background-color: red;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+.boton2:hover{
+  background-color: rgb(95, 6, 6);
 }

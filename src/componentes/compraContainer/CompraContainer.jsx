@@ -10,38 +10,35 @@ function CompraContainer(props){
     setItemsTotales(total)
   },[props])
 return(
-    <div className="carrito_contenedor" style={{marginTop:"8%"}}>
-        <h1 className="titulo">Compra de {props.compra.buyer.nombre} {props.compra.buyer.apellido}</h1>
-        <table className="tabla_carrito">
-        <thead className="">
-          <tr className="">
+    <div className="productos">
+        <h1 className="titulo_index">Compra de {props.compra.buyer.nombre} {props.compra.buyer.apellido}</h1>
+        <table className="cartList">
+        <thead className="cartList_head">
+          <tr className="cartList_row_r">
             <th>Cantidad</th>
             <th>Producto</th>
             <th>Precio</th>
             
           </tr>
         </thead>
-        <tbody> 
+        <tbody>
           {props.compra.order.map((item) => (
-            <tr key={item.id}>
+            <tr key={item.id} className="cartList_row">
               <td>{item.count}</td>
-              <td>{item.titulo}</td>
-              <td>$ {item.precio}</td>
+              <td>{item.title}</td>
+              <td>$ {item.price}</td>
             </tr>
             
           ))}
-
-        </tbody>
-        <tfoot className="pie">
-			<tr>
+          <tr className="cartList_row">
         <td>{itemsTotales}</td>
-				<th colspan="4" style={{textAlign:"right"}}>Total:</th>
-				<td>${props.compra.total}</td>
-			</tr>
-		</tfoot>
+        <td></td>
+        <td>Total: ${props.compra.total}</td>
+       </tr>
+        </tbody>
         
       </table>
-      <div className="centro2">
+      <div className="centro">
         <Link to="/">
             <ButtonChild>Ir a inicio</ButtonChild>
         </Link>

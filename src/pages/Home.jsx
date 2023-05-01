@@ -1,11 +1,10 @@
 import React from "react";
-
-import Inicio from "../componentes/inicio/Inicio";
+import ItemListContainer from "../componentes/itemListContainer/ItemListContainer";
 
 function Home() {
   return (
     <div>
-      <Inicio/>
+      <ItemListContainer />
     </div>
   );
 }

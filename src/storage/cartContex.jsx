@@ -58,7 +58,7 @@ export function CartContextProvider(props) {
 
     function getTotalPrice(){
         let total=0
-        cart.forEach((item) => {total+=item.count * item.precio})
+        cart.forEach((item) => {total+=item.count * item.price})
         return total
     }
     function actulizarCantidad(id, count) {

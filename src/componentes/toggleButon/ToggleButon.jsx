@@ -1,6 +1,6 @@
 import React, { useState,useEffect,useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faStar} from "@fortawesome/free-solid-svg-icons";
 import { favoriteContext } from "../../storage/favoriteContex";
 
 
@@ -30,13 +30,14 @@ function ToggleButton(props) {
   
 
   let classToggleBtn;
-  if (isActive) classToggleBtn = "item-card_favicon favorite";
-  else classToggleBtn = "item-card_favicon";
+  if (isActive) classToggleBtn = "fav-button fav-button_active";
+  else classToggleBtn = "fav-button";
 
   return (
-    <button className="sinBoton">
-      <FontAwesomeIcon onClick={handleClick} className={classToggleBtn} icon={faHeart} />
-    </button>
+    
+         <FontAwesomeIcon onClick={handleClick} className={classToggleBtn} icon={faStar} />
+  
+   
   );
 }
 

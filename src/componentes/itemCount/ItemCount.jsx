@@ -1,7 +1,9 @@
 import React from "react";
 import { ButtonChild } from "../button/Button";
 import useCount from "../../hooks/useCount";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import "./itemCount.css"
 
 
 function ItemCount({handleAddToCart,cant}){
@@ -9,18 +11,19 @@ function ItemCount({handleAddToCart,cant}){
     return(
 
             <div className="datoContador">
-            <h3>Agrega la cantidad deseada al carrito</h3>
+            <h3>Cantidad:</h3>
             <div className="contador">
                 <ButtonChild onClick={handleSubstract}>-</ButtonChild>
                 <h2>{count}</h2>
                 <ButtonChild onClick={handleAdd}>+</ButtonChild>
             </div>
             <div className="contenedorBoton">
-                <ButtonChild onClick={()=>handleAddToCart(count)}>Agrregar al carrito</ButtonChild>
+            
+                <button className="agregar"  onClick={()=>handleAddToCart(count)}><FontAwesomeIcon className="icono_carro" icon={faPlus} />Añadir al carrito</button>
                 
             </div>
             
-            </div>
+            </div> 
             
     )
 }

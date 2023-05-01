@@ -5,7 +5,7 @@ import ToggleButton from "../toggleButon/ToggleButon";
 import { cartContext } from "../../storage/cartContex";
 import { useContext,useEffect,useState  } from "react";
 import {userContext} from "../../storage/userContex"
-
+import "./item.css"
 
 function Item(props) {
   const [isInCart,setIsInCart]= useState(false)
@@ -22,25 +22,22 @@ function Item(props) {
   
   return (
     <>
-      <div className="producto">
-        {
-          (usuario)&&<ToggleButton props={props} />
-        }
+      <div className="card">
         <div className="image__container">
-          <img src={props.image} alt={props.title}></img>
+          <img src={props.imagen} alt={props.titulo}></img>
         </div>
         <div className="producto__footer">
-          <h3 className="titulo">{props.title}</h3>
+          <h3 className="titulo">{props.titulo}</h3> 
           
-          {props.discount ? (
+          {props.descuento ? (
             <div>
               <div>
-                <del className="price" style={{color:"#999"}}>$ {props.price+(props.price*props.discount/100)}</del>
+                <del className="price" style={{color:"#999"}}>$ {props.precio+(props.precio*props.descuento/100)}</del>
               </div>
-              <div style={{color:"green"}} className="price">descuento {props.discount}%: $ {props.price}</div>
+              <div style={{color:"green"}} className="price">-{props.descuento}%: $ {props.precio}</div>
             </div>
             
-          ):<div className="price">$ {props.price}</div>}
+          ):<div className="price">$ {props.precio}</div>}
         </div>
         <div className="bottom">
           {
@@ -55,6 +52,9 @@ function Item(props) {
               <button className="deshabilitado">deshabilitado</button>
             </div>
           }
+          { 
+          (usuario)&&<ToggleButton props={props} />
+        }
         </div>
       </div>
     </>
